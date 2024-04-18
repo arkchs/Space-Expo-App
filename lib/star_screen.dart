@@ -57,21 +57,21 @@ class _StarScreenState extends State<StarScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Column(
+                  const Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text(
+                      Text(
                         'Based on',
                         style: TextStyle(
                             fontSize: 22,
                             fontWeight: FontWeight.bold,
                             color: Colors.white),
                       ),
-                      const SizedBox(
+                      SizedBox(
                         height: 5.0,
                       ),
                       Row(
-                        children: const [
+                        children: [
                           // Name Text
                           Text(
                             'Hydrogen Line Strength',
@@ -101,11 +101,11 @@ class _StarScreenState extends State<StarScreen> {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(15.0),
+            const Padding(
+              padding: EdgeInsets.all(15.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text(
                     'Classifications',
                     style: TextStyle(
@@ -161,8 +161,8 @@ class _StarScreenState extends State<StarScreen> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Row(
-                                      children: const [
+                                    const Row(
+                                      children: [
                                         SizedBox(
                                           width: 20,
                                         ),
