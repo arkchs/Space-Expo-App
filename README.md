@@ -8,8 +8,11 @@ The Space Exploration App is a Flutter application that allows users to explore 
 2. **Spectral Details**: View detailed information about each star's spectral lines, wavelengths, and composition.
 
 ## Screenshots
-![space-expo2](https://github.com/arkchs/Space-Expo-App/assets/113816003/c757f7c8-1f8a-4961-bb8f-2678ebdb7de7)
-![space-expo3](https://github.com/arkchs/Space-Expo-App/assets/113816003/67fef946-7c95-4868-9b48-9a348ff21282)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![space-expo2](https://github.com/arkchs/Space-Expo-App/assets/113816003/c757f7c8-1f8a-4961-bb8f-2678ebdb7de7)  |  ![space-expo3](https://github.com/arkchs/Space-Expo-App/assets/113816003/67fef946-7c95-4868-9b48-9a348ff21282)
+
+
 ![space-expo](https://github.com/arkchs/Space-Expo-App/assets/113816003/f425f5e7-77a3-4338-a117-96f6b43d30b5)
 
 
