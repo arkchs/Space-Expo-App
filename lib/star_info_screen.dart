@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 class StarInfoScreen extends StatefulWidget {
-  StarInfoScreen({
+  const StarInfoScreen({
     Key? key,
     required this.image,
     required this.name,
     required this.about,
   }) : super(key: key);
 
-  String image;
-  String name;
-  String about;
+  final String image;
+  final String name;
+  final String about;
 
   @override
   State<StarInfoScreen> createState() => _StarInfoScreenState();

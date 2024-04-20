@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:space_expo/star_screen.dart';
 
@@ -30,7 +31,8 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(
               height: 50,
             ),
-            const Text(
+            const AutoSizeText(
+              maxLines:1,
               'Learn about a',
               style: TextStyle(
                   fontSize: 45,
@@ -40,7 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
+                AutoSizeText(
+                  maxLines:1,
                   'new star',
                   style: TextStyle(
                       fontSize: 45,
@@ -50,7 +53,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   width: 10,
                 ),
-                Text(
+                AutoSizeText(
+                  maxLines:1,
                   'everyday',
                   style: TextStyle(
                       fontSize: 45,
